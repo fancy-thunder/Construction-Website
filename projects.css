@@ -1,0 +1,462 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #252525;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    font-size: 0.8em;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav > div > a{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+nav > div > button{
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 20px;
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em; 
+    color: white;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    position: fixed;
+    bottom: 35px;
+    left: 0px;
+}
+
+.icons > i{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    scale: 1.2;
+    color: white;
+}
+
+.projects{
+    width: 90vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    border: 1px solid #9a8a78;
+    margin-top: 5vh;
+}
+
+.projects > .our-projects{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    background-color: #9a8a78;
+}
+
+.projects > .nelsons-project{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+}
+
+.projects > .grove-street{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+}
+
+.projects > .jeffersons-house{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects h1{
+    color: white;
+    font-size: 2.8em;
+}
+
+.projects h2{
+    color: #9a8a78;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.about{
+    margin-top: 18vh;
+    margin-left: 5vw;
+}
+
+.about h1{
+    color: #9a8a78;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.about p{
+    color: white;
+    font-size: 1.2em;
+}
+
+.first-pic-box{
+    width: 90vw;
+    height: 250vh;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.first-pic-box > .first-pic-box-left{
+    width: 50%;
+    height: 100%;
+}
+
+.first-pic-box > .first-pic-box-right{
+    width: 50%;
+    height: 40%;
+}
+
+.first-pic-box > .first-pic-box-left > .first-pic-box-top-pic{
+    width: 90%;
+    height: 50%;
+}
+
+.first-pic-box > .first-pic-box-left > .first-pic-box-bottom-pic{
+    width: 90%;
+    height: 40%;
+    margin-top: 10vh;
+}
+
+.first-pic-box > .first-pic-box-right > .first-pic-box-right-top-pic{
+    width: 100%;
+    height: 50%;
+}
+
+.first-pic-box > .first-pic-box-right > .first-pic-box-right-middle-pic{
+    width: 100%;
+    height: 120%;
+    margin-top: 10vh;
+}
+
+.first-pic-box > .first-pic-box-right > .first-pic-box-right-bottom-pic{
+    width: 100%;
+    height: 60%;
+    margin-top: 10vh;
+}
+
+.first-pic-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.border-line{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid #9a8a78;
+    margin-top: 10vh;
+}
+
+.second-pic-box{
+    width: 90vw;
+    height: 250vh;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.second-pic-box > .second-pic-box-left{
+    width: 50%;
+    height: 100%;
+}
+
+.second-pic-box > .second-pic-box-right{
+    width: 50%;
+    height: 100%;
+}
+
+.second-pic-box > .second-pic-box-left > .second-pic-box-left-first-pic{
+    width: 90%;
+    height: 20%;
+}
+
+.second-pic-box > .second-pic-box-left > .second-pic-box-left-second-pic{
+    width: 90%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.second-pic-box > .second-pic-box-left > .second-pic-box-left-third-pic{
+    width: 90%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.second-pic-box > .second-pic-box-left > .second-pic-box-left-fourth-pic{
+    width: 90%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.second-pic-box > .second-pic-box-right > .second-pic-box-right-top-pic{
+    width: 100%;
+    height: 45%;
+}
+
+.second-pic-box > .second-pic-box-right > .second-pic-box-right-bottom-pic{
+    width: 100%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.second-pic-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.third-pic-box{
+    width: 90vw;
+    height: 250vh;
+    margin: auto;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.third-pic-box > .third-pic-box-left{
+    width: 50%;
+    height: 100%;
+}
+
+.third-pic-box > .third-pic-box-right{
+    width: 50%;
+    height: 100%;
+}
+
+.third-pic-box > .third-pic-box-left > .third-pic-box-left-top-pic{
+    width: 90%;
+    height: 20%;
+}
+
+.third-pic-box > .third-pic-box-left > .third-pic-box-left-bottom-pic{
+    width: 90%;
+    height: 50%;
+    margin-top: 10vh;
+}
+
+.third-pic-box-right > .third-pic-box-right-first-pic{
+    width: 100%;
+    height: 40%;
+}
+
+.third-pic-box-right > .third-pic-box-right-second-pic{
+    width: 100%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.third-pic-box-right > .third-pic-box-right-third-pic{
+    width: 100%;
+    height: 20%;
+    margin-top: 10vh;
+}
+
+.third-pic-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-stuff-main-box{
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+}
+
+.contact-stuff-main-box > .contact-us-box{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-stuff-main-box > .name-box{
+    width: 33.33%;
+    height: 100%;
+}
+
+.contact-stuff-main-box > .home-box{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-stuff-main-box > .home-box > a{
+    font-size: 1em;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #9a8a78;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-stuff-main-box > .home-box > button{
+    margin-top: 10vh;
+    width: 35%;
+    height: 10%;
+    text-transform: uppercase;
+    background-color: #9a8a78;
+    border: none;
+    margin-left: 20%;
+}
+
+.contact-stuff-main-box > .contact-us-box > h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 1vw;
+    color: #9a8a78;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contact-stuff-main-box > .contact-us-box > .boxes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.contact-stuff-main-box > .contact-us-box > .boxes > p{
+    margin-left: 5vw;
+    font-size: 1.1em;
+    color: #9a8a78;
+}
+
+
+.contact-stuff-main-box > .contact-us-box > .boxes > i{
+    color: #9a8a78;
+    scale: 180%;
+    padding-left: 1vw;
+}
+
+.first-last-namebox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;    
+}
+
+.name-box{
+    width: 25% !important;
+}
+
+.name-box > .first-last-namebox > .f-name{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-box > .first-last-namebox > .l-name{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-address-namebox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.phone-address-namebox > .phone{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-address-namebox > .address{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#fname{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.tags{
+    color: #9a8a78;
+    font-size: 1.2em;
+}
+
+.name-box > .email{
+    margin-top: 30px;
+    width: 100%;
+}
+.name-box > .email > input{
+    width: 100%;
+}
+
+
+.name-box > button{
+    margin-top: 50px;
+    width: 100%;
+    height: 8%;
+    background: none;
+    border: 1px solid #9a8a78;
+    color: #9a8a78;
+}
+
+.home-waala-box{
+    margin-left: -11px;
+}

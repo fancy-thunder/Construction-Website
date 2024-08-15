@@ -1,0 +1,414 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252525;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    font-size: 0.8em;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav > div > a{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+nav > div > button{
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 20px;
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em; 
+    color: white;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    position: fixed;
+    bottom: 35px;
+    left: 0px;
+}
+
+.icons > i{
+    margin-bottom: 20px;
+    padding-left: 30px;
+    scale: 1.2;
+    color: white;
+}
+
+.our-service-outerbox{
+    width: 90vw;
+    height: 130vh;
+    margin: auto;
+    border: 1px solid #9a8a78;
+}
+
+.our-service-outerbox > .first-box{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.our-service-outerbox > .first-box > .our-service{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+    background-color: #9a8a78;
+}
+
+.our-service-outerbox > .first-box > .complete-remodeling{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.our-service-outerbox > .first-box > .kitchen-remodeling{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.our-service-outerbox > .first-box > .last-pic{
+    width: 25%;
+    height: 100%;
+    border-bottom: 1px solid #9a8a78;
+}
+
+.our-service-outerbox > .second-box{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.second-box > .first-pic{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+}
+
+.second-box > .home-interior{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.second-box > .flooring{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.second-box > .bathroom-remodeling{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #9a8a78;
+    padding: 0px 20px;
+    padding-bottom: 40px;
+}
+
+.our-service-outerbox > .third-box{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.third-box > .our-expertise{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.third-box > .pre-construction{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    padding: 0px 20px;
+}
+
+.third-box > .construction{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #9a8a78;
+    padding: 0px 20px;
+}  
+
+.third-box > .post-construction{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.our-service-outerbox > .first-box > .our-service > h1{
+    color: white;
+}
+
+
+.our-service-outerbox h2{
+    color: #9a8a78;
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.our-service-outerbox p{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.our-service-outerbox h3{
+    color: white;
+    font-size: 2em;
+    padding-bottom: 12vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.our-service-outerbox h4{
+    color: white;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.our-service-outerbox li{ 
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.our-service-outerbox ul{
+    padding-left: 35px;
+}
+
+.our-service-outerbox img{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-stuff-main-box{
+    height: 50vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+}
+
+.contact-stuff-main-box > .contact-us-box{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-stuff-main-box > .name-box{
+    width: 33.33%;
+    height: 100%;
+}
+
+.contact-stuff-main-box > .home-box{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-stuff-main-box > .home-box > a{
+    font-size: 1em;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #9a8a78;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-stuff-main-box > .home-box > button{
+    margin-top: 10vh;
+    width: 35%;
+    height: 10%;
+    text-transform: uppercase;
+    background-color: #9a8a78;
+    border: none;
+    margin-left: 20%;
+}
+
+.contact-stuff-main-box > .contact-us-box > h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 1vw;
+    color: #9a8a78;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contact-stuff-main-box > .contact-us-box > .boxes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.contact-stuff-main-box > .contact-us-box > .boxes > p{
+    margin-left: 5vw;
+    font-size: 1.1em;
+    color: #9a8a78;
+}
+
+
+.contact-stuff-main-box > .contact-us-box > .boxes > i{
+    color: #9a8a78;
+    scale: 180%;
+    padding-left: 1vw;
+}
+
+.first-last-namebox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;    
+}
+
+.name-box{
+    width: 25% !important;
+}
+
+.name-box > .first-last-namebox > .f-name{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-box > .first-last-namebox > .l-name{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-address-namebox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.phone-address-namebox > .phone{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-address-namebox > .address{
+    width: 48%;
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#fname{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.tags{
+    color: #9a8a78;
+    font-size: 1.2em;
+}
+
+.name-box > .email{
+    margin-top: 30px;
+    width: 100%;
+}
+.name-box > .email > input{
+    width: 100%;
+}
+
+
+.name-box > button{
+    margin-top: 50px;
+    width: 100%;
+    height: 8%;
+    background: none;
+    border: 1px solid #9a8a78;
+    color: #9a8a78;
+}
+
+.home-waala-box{
+    margin-left: -11px;
+}
