@@ -1,2 +1,2 @@
 # Construction-Website
- Created a fully responsive construction website clone using HTML and CSS, featuring a home page, services page, and projects page. Designed to mirror the aesthetics and functionality of a professional construction business site.
+A responsive construction website clone built with HTML and CSS, featuring Home, Services, and Projects pages. Includes a clean, professional design with navigation, call-to-action buttons, and high-quality images. Utilizes advanced CSS techniques like flexbox and grid for a fully responsive layout. Highlights include sections for "Our Services," "Recent Projects," and "About Us."
